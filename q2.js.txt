@@ -1,0 +1,11 @@
+let employee ={
+    name :"sara",
+    age: 28,
+    salary:null,
+    department:undefined
+};
+for (let key in employee){
+    if(employee[key]===null || employee[key]===undefined)
+    delete employee[key]
+}
+console.log(employee)

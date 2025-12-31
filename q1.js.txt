@@ -1,0 +1,17 @@
+let num = 7;
+let flag =true ;
+for (let index=2 ; index<num ; index++)
+{
+if(num%index==0)
+    flag=false;
+    break;
+}
+
+if(flag==true)
+{
+console.log("adad aval aast")
+}
+else
+{
+console.log("adad aval nist")
+}
